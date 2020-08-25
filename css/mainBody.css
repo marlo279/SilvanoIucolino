@@ -1,0 +1,106 @@
+.grid {
+    display: grid;
+    height: 400px;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.flex-one-parent {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 3rem;
+    grid-row: 1;
+    background: rgba(140, 231, 2, 0.3); 
+    background-image: url(../img/blaadje.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 95vh;
+}
+
+.flex-one-parent>* {
+    width: 100%;
+}
+
+.flex-one-child {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 	14px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+.flex-two-parent {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 3rem;
+    grid-row: 2;
+    background-image: url(../img/body.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 95vh;
+}
+
+.flex-two-parent>* {
+    width: 100%;
+}
+
+.flex-two-child {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 13px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.flex-three-parent {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 3rem;
+    grid-row: 3;
+    height: 95vh;
+    background: rgba(148, 119, 165, 0.39);   
+}
+
+.flex-three-child {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+}
+
+.flex-three-parent>* {
+    width: 100%;
+}
+
+
+.meisje {
+    margin-right: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.titel {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.sub-titel {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+  
